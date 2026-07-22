@@ -1,0 +1,37 @@
+{
+  "scanDate": "2026-07-22",
+  "deals": [
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-01",
+      "price": 66100,
+      "tpePrice": 87300,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.76,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-31",
+      "price": 67700,
+      "tpePrice": 87300,
+      "tpeDate": "2026-10-13",
+      "ratio": 0.78,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    }
+  ]
+}

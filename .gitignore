@@ -1,0 +1,4 @@
+data/browser-profile/
+data/poc_*
+data/scan.log
+data/scan.err.log

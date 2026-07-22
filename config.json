@@ -1,0 +1,26 @@
+{
+  "origins": ["BKK", "MNL", "ICN", "KUL", "TYO", "TPE"],
+  "baseline": "TPE",
+  "destinations": {
+    "VIE": { "name": "維也納", "group": "europe" },
+    "MUC": { "name": "慕尼黑", "group": "europe" },
+    "PRG": { "name": "布拉格", "group": "europe" },
+    "SYD": { "name": "雪梨", "group": "oceania" },
+    "AKL": { "name": "奧克蘭", "group": "oceania" },
+    "KEF": { "name": "冰島", "group": "oceania" }
+  },
+  "cabins": ["economy", "business"],
+  "durations": [10, 16],
+  "anchorDaysAhead": 35,
+  "calendarFlips": 3,
+  "dealRatio": 0.8,
+  "absoluteThresholds": {
+    "europe":  { "business": 70000, "economy": 25000 },
+    "oceania": { "business": 50000, "economy": 18000 },
+    "KEF":     { "business": 90000, "economy": 35000 }
+  },
+  "delayBetweenTasksSec": [4, 9],
+  "originNames": {
+    "BKK": "曼谷", "MNL": "馬尼拉", "ICN": "首爾", "KUL": "吉隆坡", "TYO": "東京", "TPE": "台北"
+  }
+}
