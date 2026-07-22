@@ -93,36 +93,45 @@ footer{max-width:720px;margin:10px auto;padding:0 14px;font-size:11px;color:var(
   <button class="iconbtn" onclick="location.reload()" title="重新整理">↻</button>
 </header>
 <main>
-<section>
-  <div class="chips" id="destChips"></div>
-  <div class="chips">
-    <span class="chip" data-k="cabin" data-v="business">商務艙</span>
-    <span class="chip" data-k="cabin" data-v="economy">經濟艙</span>
-    <span style="width:8px"></span>
-    <span class="chip" data-k="dur" data-v="10">10 天</span>
-    <span class="chip" data-k="dur" data-v="16">16 天</span>
-  </div>
-</section>
-
 <section id="dealsSec">
   <h2>🔥 好價警示</h2>
+  <div class="chips" id="sortChips">
+    <span class="chip" data-s="ratio">依價差 %</span>
+    <span class="chip" data-s="save">依省最多</span>
+    <span class="chip" data-s="price">依價格</span>
+    <span class="chip" data-s="date">依出發日</span>
+  </div>
   <div id="deals"></div>
 </section>
 
 <section>
-  <h2>📊 外站 vs 台北(各月最低價)</h2>
+  <h2>🔍 選擇要細看的航線(以下三個區塊跟著這裡切換)</h2>
+  <div class="card" style="padding:10px 12px">
+    <div class="chips" id="destChips"></div>
+    <div class="chips" style="margin-bottom:0">
+      <span class="chip" data-k="cabin" data-v="business">商務艙</span>
+      <span class="chip" data-k="cabin" data-v="economy">經濟艙</span>
+      <span style="width:8px"></span>
+      <span class="chip" data-k="dur" data-v="10">10 天</span>
+      <span class="chip" data-k="dur" data-v="16">16 天</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="cmpTitle">📊 外站 vs 台北(各月最低價)</h2>
   <div class="tblwrap"><table id="cmpTbl"></table></div>
 </section>
 
 <section>
-  <h2>📅 每日最低價月曆</h2>
+  <h2 id="calTitle">📅 每日最低價月曆</h2>
   <div class="chips" id="originChips"></div>
   <div class="legend"><span>貴</span><div class="bar" id="legendBar"></div><span>便宜</span><span style="margin-left:8px">◎ 當月最低</span></div>
   <div class="months" id="months"></div>
 </section>
 
 <section>
-  <h2>📈 最低價走勢(逐次掃描)</h2>
+  <h2 id="trendTitle">📈 最低價走勢(逐次掃描)</h2>
   <div class="trendwrap">
     <div class="lgd" id="trendLgd"></div>
     <div id="trend"></div>
@@ -170,7 +179,7 @@ function gfUrl(from,to,dep,ret,cabin){
 }
 
 // ---------- 狀態與資料 ----------
-const S = { dest:'VIE', cabin:'business', dur:'10', origin:'BKK' };
+const S = { dest:'VIE', cabin:'business', dur:'10', origin:'BKK', dealSort:'ratio', dealsExpanded:false };
 let CFG=null, LATEST=null, DEALS=null, TREND=null;
 const seqLight=['#cde2fb','#b7d3f6','#9ec5f4','#86b6ef','#6da7ec','#5598e7','#3987e5','#2a78d6','#256abf','#1c5cab','#184f95','#104281','#0d366b'];
 const oname=c=>CFG?.originNames?.[c]||c;
@@ -203,22 +212,41 @@ function buildStaticChips(){
 // ---------- 渲染 ----------
 function render(){
   document.querySelectorAll('.chip[data-k]').forEach(ch=>ch.classList.toggle('on',String(S[ch.dataset.k])===ch.dataset.v));
+  const sel=`${dname(S.dest)}・${cname(S.cabin)}艙・${S.dur} 天`;
+  document.getElementById('cmpTitle').textContent=`📊 外站 vs 台北:${sel}(各月最低)`;
+  document.getElementById('calTitle').textContent=`📅 ${oname(S.origin)}→${sel} 每日最低價`;
+  document.getElementById('trendTitle').textContent=`📈 ${oname(S.origin)}→${sel} 最低價走勢`;
   renderDeals();renderCmp();renderCal();renderTrend();
 }
 
+const dealSorters={
+  ratio:(a,b)=>(a.ratio??9)-(b.ratio??9),
+  save:(a,b)=>((b.tpePrice||b.price)-b.price)-((a.tpePrice||a.price)-a.price),
+  price:(a,b)=>a.price-b.price,
+  date:(a,b)=>a.date.localeCompare(b.date)||(a.ratio??9)-(b.ratio??9),
+};
 function renderDeals(){
   const el=document.getElementById('deals');
-  const ds=(DEALS?.deals||[]).filter(d=>String(d.duration)===String(S.dur)||true);
+  document.querySelectorAll('#sortChips .chip').forEach(ch=>{
+    ch.classList.toggle('on',ch.dataset.s===S.dealSort);
+    ch.onclick=()=>{S.dealSort=ch.dataset.s;renderDeals()};
+  });
+  const ds=[...(DEALS?.deals||[])].sort(dealSorters[S.dealSort]||dealSorters.ratio);
   if(!ds.length){el.innerHTML='<div class="card empty">目前沒有符合條件的好價,持續監控中</div>';return}
-  el.innerHTML=ds.slice(0,12).map(d=>{
+  const shown=S.dealsExpanded?ds:ds.slice(0,12);
+  el.innerHTML=shown.map(d=>{
     const url=gfUrl(d.from,d.to,d.date,addDays(d.date,d.duration),d.cabin);
     return `<div class="card"><a class="deal" href="${url}" target="_blank" rel="noopener">
       <div class="route"><b>${oname(d.from)} → ${dname(d.to)}</b>
       <small>${cname(d.cabin)}艙 ${d.duration} 天|${d.date} 出發</small>
       <small style="margin-top:2px">${d.triggers.map(t=>`<span class="badge">✓ ${t}</span>`).join('')}</small></div>
       <div class="price"><b>${fmt(d.price)}</b>
-      <small>${d.tpePrice?`台北 ${fmt(d.tpePrice)} 的 ${Math.round(d.ratio*100)}%`:'—'}</small></div>
-    </a></div>`;}).join('');
+      <small>${d.tpePrice?`台北 ${fmt(d.tpePrice)} 的 ${Math.round(d.ratio*100)}%`:'—'}</small>
+      ${d.tpePrice?`<small style="color:var(--good-text)">省 ${fmt(d.tpePrice-d.price)}</small>`:''}</div>
+    </a></div>`;}).join('')
+    +(ds.length>12?`<button class="chip" id="moreDeals" style="display:block;width:100%;padding:8px">${S.dealsExpanded?'收合 ▴':`顯示全部 ${ds.length} 筆 ▾`}</button>`:'');
+  const mb=document.getElementById('moreDeals');
+  if(mb)mb.onclick=()=>{S.dealsExpanded=!S.dealsExpanded;renderDeals()};
 }
 
 function monthlyMin(prices){
