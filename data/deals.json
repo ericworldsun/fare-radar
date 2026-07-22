@@ -2,6 +2,304 @@
   "scanDate": "2026-07-22",
   "deals": [
     {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-24",
+      "price": 67400,
+      "tpePrice": 104000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.65,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-23",
+      "price": 72900,
+      "tpePrice": 110000,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.66,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-23",
+      "price": 76900,
+      "tpePrice": 113000,
+      "tpeDate": "2026-07-30",
+      "ratio": 0.68,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-23",
+      "price": 72400,
+      "tpePrice": 104000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.7,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-31",
+      "price": 66900,
+      "tpePrice": 95400,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.7,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-24",
+      "price": 66900,
+      "tpePrice": 95100,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.7,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-01",
+      "price": 76900,
+      "tpePrice": 110000,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.7,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-12",
+      "price": 65300,
+      "tpePrice": 92100,
+      "tpeDate": "2026-08-04",
+      "ratio": 0.71,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "price": 65300,
+      "tpePrice": 92100,
+      "tpeDate": "2026-08-03",
+      "ratio": 0.71,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-23",
+      "price": 73900,
+      "tpePrice": 103000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.72,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-10",
+      "price": 19100,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.73,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-30",
+      "price": 18700,
+      "tpePrice": 25500,
+      "tpeDate": "2026-09-29",
+      "ratio": 0.73,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-12",
+      "price": 66900,
+      "tpePrice": 92100,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.73,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-04",
+      "price": 20700,
+      "tpePrice": 28400,
+      "tpeDate": "2026-08-14",
+      "ratio": 0.73,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-01",
+      "price": 68500,
+      "tpePrice": 92100,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.74,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-05",
+      "price": 68500,
+      "tpePrice": 92100,
+      "tpeDate": "2026-09-28",
+      "ratio": 0.74,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-04",
+      "price": 68500,
+      "tpePrice": 92100,
+      "tpeDate": "2026-10-19",
+      "ratio": 0.74,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-11",
+      "price": 19600,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-17",
+      "ratio": 0.75,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-25",
+      "price": 77300,
+      "tpePrice": 103000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.75,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
       "from": "BKK",
       "to": "VIE",
       "cabin": "business",
@@ -21,6 +319,271 @@
       "from": "BKK",
       "to": "VIE",
       "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-06",
+      "price": 66100,
+      "tpePrice": 87300,
+      "tpeDate": "2026-08-03",
+      "ratio": 0.76,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-01",
+      "price": 66100,
+      "tpePrice": 87300,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.76,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-30",
+      "price": 18200,
+      "tpePrice": 23700,
+      "tpeDate": "2026-09-14",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-28",
+      "price": 67300,
+      "tpePrice": 87300,
+      "tpeDate": "2026-08-14",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-01",
+      "price": 67400,
+      "tpePrice": 87300,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "price": 67500,
+      "tpePrice": 87300,
+      "tpeDate": "2026-10-13",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "price": 67400,
+      "tpePrice": 87300,
+      "tpeDate": "2026-08-03",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-01",
+      "price": 67500,
+      "tpePrice": 87300,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-02",
+      "price": 67400,
+      "tpePrice": 87300,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-08",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-08-04",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-12",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-04",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-08-03",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-09-28",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "price": 71100,
+      "tpePrice": 92100,
+      "tpeDate": "2026-10-19",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-09",
+      "price": 70900,
+      "tpePrice": 92100,
+      "tpeDate": "2026-11-09",
+      "ratio": 0.77,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-14",
+      "price": 22000,
+      "tpePrice": 28400,
+      "tpeDate": "2026-08-14",
+      "ratio": 0.77,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "business",
       "duration": 10,
       "month": "2026-10",
       "date": "2026-10-31",
@@ -30,6 +593,1437 @@
       "ratio": 0.78,
       "triggers": [
         "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-23",
+      "price": 19800,
+      "tpePrice": 25500,
+      "tpeDate": "2026-09-29",
+      "ratio": 0.78,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-26",
+      "price": 21000,
+      "tpePrice": 26800,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.78,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "price": 20400,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.78,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-29",
+      "price": 21800,
+      "tpePrice": 28100,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.78,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-29",
+      "price": 74600,
+      "tpePrice": 95100,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.78,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-01",
+      "price": 69000,
+      "tpePrice": 87300,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.79,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-30",
+      "price": 81800,
+      "tpePrice": 103000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.79,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-24",
+      "price": 69000,
+      "tpePrice": 87300,
+      "tpeDate": "2026-10-13",
+      "ratio": 0.79,
+      "triggers": [
+        "價差",
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-30",
+      "price": 81800,
+      "tpePrice": 104000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.79,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-29",
+      "price": 75800,
+      "tpePrice": 95400,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.79,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-28",
+      "price": 89700,
+      "tpePrice": 113000,
+      "tpeDate": "2026-07-30",
+      "ratio": 0.79,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "price": 21000,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-17",
+      "ratio": 0.8,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "business",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-24",
+      "price": 82800,
+      "tpePrice": 104000,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.8,
+      "triggers": [
+        "價差"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "price": 18100,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-21",
+      "ratio": 0.82,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "price": 18100,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-15",
+      "ratio": 0.82,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-26",
+      "price": 23600,
+      "tpePrice": 28400,
+      "tpeDate": "2026-08-14",
+      "ratio": 0.83,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-23",
+      "price": 19800,
+      "tpePrice": 23700,
+      "tpeDate": "2026-09-14",
+      "ratio": 0.84,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-03",
+      "price": 20900,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.84,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-03",
+      "price": 22200,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-17",
+      "ratio": 0.85,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-29",
+      "price": 22700,
+      "tpePrice": 26800,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.85,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-25",
+      "price": 21800,
+      "tpePrice": 25500,
+      "tpeDate": "2026-09-29",
+      "ratio": 0.85,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-02",
+      "price": 22200,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.85,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-10",
+      "price": 19000,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-21",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-01",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-28",
+      "price": 24300,
+      "tpePrice": 28100,
+      "tpeDate": "2026-07-27",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-05",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-18",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-07",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-05",
+      "price": 21300,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.86,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-28",
+      "price": 23300,
+      "tpePrice": 26800,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.87,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-15",
+      "price": 21800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.88,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-09",
+      "price": 21800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-25",
+      "ratio": 0.88,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "TYO",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-21",
+      "price": 19500,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-21",
+      "ratio": 0.89,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-27",
+      "price": 23800,
+      "tpePrice": 26800,
+      "tpeDate": "2026-07-26",
+      "ratio": 0.89,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-27",
+      "price": 24100,
+      "tpePrice": 26800,
+      "tpeDate": "2026-07-23",
+      "ratio": 0.9,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-08",
+      "price": 23800,
+      "tpePrice": 26200,
+      "tpeDate": "2026-08-11",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-07",
+      "price": 23100,
+      "tpePrice": 25500,
+      "tpeDate": "2026-09-29",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-01",
+      "price": 22500,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-14",
+      "price": 22500,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-04",
+      "price": 22500,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-01",
+      "price": 22500,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.91,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-06",
+      "price": 20900,
+      "tpePrice": 22600,
+      "tpeDate": "2026-11-06",
+      "ratio": 0.92,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-04",
+      "price": 21100,
+      "tpePrice": 22600,
+      "tpeDate": "2026-11-06",
+      "ratio": 0.93,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-02",
+      "price": 23100,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-18",
+      "ratio": 0.93,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "price": 20600,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-15",
+      "ratio": 0.94,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-23",
+      "price": 20900,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-15",
+      "ratio": 0.95,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "price": 22800,
+      "tpePrice": 23700,
+      "tpeDate": "2026-09-14",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-21",
+      "price": 21100,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-21",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-25",
+      "price": 23800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-23",
+      "price": 23800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-24",
+      "price": 23800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-02",
+      "price": 23800,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.96,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-20",
+      "price": 21900,
+      "tpePrice": 22600,
+      "tpeDate": "2026-11-06",
+      "ratio": 0.97,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-02",
+      "price": 24100,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-25",
+      "ratio": 0.97,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-19",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-02",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-31",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-18",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-19",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-06",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-10-12",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-03",
+      "price": 24600,
+      "tpePrice": 24800,
+      "tpeDate": "2026-11-03",
+      "ratio": 0.99,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-08",
+      "date": "2026-08-23",
+      "price": 24700,
+      "tpePrice": 24800,
+      "tpeDate": "2026-08-25",
+      "ratio": 1,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-29",
+      "price": 24700,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 1,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "TYO",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-28",
+      "price": 24000,
+      "tpePrice": 23700,
+      "tpeDate": "2026-09-14",
+      "ratio": 1.01,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "MUC",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-14",
+      "price": 25000,
+      "tpePrice": 24800,
+      "tpeDate": "2026-09-01",
+      "ratio": 1.01,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-15",
+      "price": 22800,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-15",
+      "ratio": 1.04,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "TYO",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-02",
+      "price": 22800,
+      "tpePrice": 22000,
+      "tpeDate": "2026-10-15",
+      "ratio": 1.04,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-04",
+      "price": 21100,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-27",
+      "price": 22200,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "VIE",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-14",
+      "price": 19100,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "MNL",
+      "to": "MUC",
+      "cabin": "business",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-03",
+      "price": 68500,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-27",
+      "price": 24800,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-01",
+      "price": 22900,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-02",
+      "price": 22900,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-08",
+      "price": 24000,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-04",
+      "price": 22000,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-21",
+      "price": 22500,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-07",
+      "date": "2026-07-25",
+      "price": 23200,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-09",
+      "date": "2026-09-06",
+      "price": 20700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-10",
+      "date": "2026-10-04",
+      "price": 20700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 10,
+      "month": "2026-11",
+      "date": "2026-11-03",
+      "price": 20700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-29",
+      "price": 24200,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-31",
+      "price": 23500,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-07",
+      "price": 22800,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-03",
+      "price": 22900,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "BKK",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-16",
+      "price": 23900,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-28",
+      "price": 23500,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-07",
+      "price": 22000,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-29",
+      "price": 21700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-25",
+      "price": 21700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "ICN",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-11",
+      "date": "2026-11-24",
+      "price": 20600,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-07",
+      "date": "2026-07-26",
+      "price": 22600,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-08",
+      "date": "2026-08-07",
+      "price": 21300,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-09",
+      "date": "2026-09-09",
+      "price": 20700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
+        "絕對門檻"
+      ]
+    },
+    {
+      "from": "KUL",
+      "to": "PRG",
+      "cabin": "economy",
+      "duration": 16,
+      "month": "2026-10",
+      "date": "2026-10-11",
+      "price": 20700,
+      "tpePrice": null,
+      "tpeDate": null,
+      "ratio": null,
+      "triggers": [
         "絕對門檻"
       ]
     }
